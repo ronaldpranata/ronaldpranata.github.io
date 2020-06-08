@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "753a460476c2fc4c0ec62f478d8ff870",
+    "revision": "8fc54e2ee5f515b8d67c78477727c63f",
     "url": "/index.html"
   },
   {
-    "revision": "20b5f0529cca3958a3b6",
+    "revision": "ab9dcea48ba40ea2accb",
     "url": "/static/css/main.7828ff43.chunk.css"
   },
   {
-    "revision": "6d7b3c79b64f19abffb7",
-    "url": "/static/js/2.b1e4ffe0.chunk.js"
+    "revision": "42903459071bb509043d",
+    "url": "/static/js/2.2106f674.chunk.js"
   },
   {
-    "revision": "20b5f0529cca3958a3b6",
-    "url": "/static/js/main.f6903803.chunk.js"
+    "revision": "ab9dcea48ba40ea2accb",
+    "url": "/static/js/main.af47d334.chunk.js"
   },
   {
     "revision": "53fcece07daced39aa8c",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "181173c7d6116303e67d20af40af87f8",
     "url": "/static/media/10.181173c7.png"
+  },
+  {
+    "revision": "68e3bda9d17196d3253a7e5f82ace50f",
+    "url": "/static/media/11.68e3bda9.jpeg"
   },
   {
     "revision": "44a4cd5b4fd130ac7987468d692c35b9",
@@ -92,16 +96,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/christian.56633ed3.jpg"
   },
   {
-    "revision": "c058841b1dd64e5f79c6348b24cfb78d",
-    "url": "/static/media/clem-onojegaw.c058841b.jpg"
+    "revision": "1fefc82cb86498414cb0338194f6477e",
+    "url": "/static/media/doxadigital.1fefc82c.jpg"
   },
   {
-    "revision": "216ef03c54bc13771c5e1b8d8f8d5926",
-    "url": "/static/media/clem-onojeghuo.216ef03c.jpg"
-  },
-  {
-    "revision": "9813593cc577a319a2201342ef0fb237",
-    "url": "/static/media/cynthia-del-rio.9813593c.jpg"
+    "revision": "f467186af5a65cfe0b1724677644e1d9",
+    "url": "/static/media/jira-and-confluence.f467186a.png"
   },
   {
     "revision": "e0508cc923eb0b5e68ca6783c53d0f1d",
@@ -116,12 +116,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/landing.08e18cb9.jpg"
   },
   {
-    "revision": "4575c40bfb8dec6713d2da51c4c4066e",
-    "url": "/static/media/mariya-georgieva.4575c40b.jpg"
-  },
-  {
-    "revision": "4112cbc1477d9e149033c5df66087e16",
-    "url": "/static/media/olu-eletu.4112cbc1.jpg"
+    "revision": "5dc6459e28a9251eccbff57cffb4acf5",
+    "url": "/static/media/prima.5dc6459e.jpeg"
   },
   {
     "revision": "4291185995790342d1e3445c9845ce97",
@@ -130,6 +126,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "090a5aabae505f67ee0981613d02ee05",
     "url": "/static/media/profile.090a5aab.jpg"
+  },
+  {
+    "revision": "61e3d5ce3923b1a74eab3434df097990",
+    "url": "/static/media/react.61e3d5ce.png"
   },
   {
     "revision": "318c7449097ba727f47d914385af49a9",
