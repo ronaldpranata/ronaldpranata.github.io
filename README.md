@@ -38,7 +38,7 @@ cd portfolio-website
 
 2. Install dependencies:
 ```bash
-npm install --legacy-peer-deps
+npm install
 ```
 
 ### Running the Application
