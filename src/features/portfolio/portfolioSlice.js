@@ -60,7 +60,7 @@ const initialState = {
           ]
         },
         {
-          text: '**Full-Stack Architecture:** Crafted an award-winning digital ecosystem using a robust stack of **Java Spring Boot and Node.js**, seamlessly integrated with modern frontend interfaces for real-time data visualization.'
+          text: '**Full-Stack Architecture:** Crafted an award-winning digital ecosystem using a robust stack of **Java Spring Boot** integrated with modern frontend framework such as Vue and Nuxt.'
         },
         {
           text: '**AI & Generative Content Innovation:** Architected an **AI-powered storytelling platform** using **Nuxt 4 and Google Gemini**, integrating Generative AI tools to automate high-throughput video rendering and content generation.'
