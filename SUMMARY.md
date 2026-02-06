@@ -105,6 +105,15 @@ Or use the helper script:
 ./deploy.sh
 ```
 
+## 📦 Dependency Management
+
+**Note**: The `cra-template-redux` package has been removed from dependencies as it's only needed during initial project setup with Create React App. The Redux configuration is already in place in the codebase (store.js, portfolioSlice.js), so the template is no longer required.
+
+When installing dependencies:
+- Use `npm ci` (not `npm install`) to ensure exact versions from package-lock.json
+- This maintains consistency across all development environments
+- Prevents "works on my machine" issues
+
 ## 📝 Customizing Content
 
 Edit the portfolio data in:

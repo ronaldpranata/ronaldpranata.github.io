@@ -3,6 +3,19 @@ import { useSelector } from 'react-redux';
 import { selectProfile, selectCompetencies } from '../features/portfolio/portfolioSlice';
 import './About.css';
 
+// Helper function to parse markdown-style bold text
+const parseText = (text) => {
+  if (!text) return null;
+  
+  const parts = text.split(/(\*\*[^*]+\*\*)/g);
+  return parts.map((part, index) => {
+    if (part.startsWith('**') && part.endsWith('**')) {
+      return <strong key={index}>{part.slice(2, -2)}</strong>;
+    }
+    return part;
+  });
+};
+
 function About() {
   const profile = useSelector(selectProfile);
   const competencies = useSelector(selectCompetencies);
@@ -19,12 +32,12 @@ function About() {
         </div>
         <div className="about-intro">
           <h2>Profile</h2>
-          <p className="about-summary">{profile.summary}</p>
+          <p className="about-summary">{parseText(profile.summary)}</p>
         </div>
       </div>
 
       <div className="competencies">
-        <h3 className="section-title">Core Competencies</h3>
+        <h3 className="section-title">Areas of Expertise</h3>
         <div className="competencies-grid">
           {competencies.map((comp, index) => (
             <div key={index} className="competency-card">

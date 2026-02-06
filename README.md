@@ -38,8 +38,10 @@ cd portfolio-website
 
 2. Install dependencies:
 ```bash
-npm install
+npm ci
 ```
+
+> **Note**: Use `npm ci` instead of `npm install` to ensure exact dependency versions from package-lock.json are installed. This maintains consistency across all development environments.
 
 ### Running the Application
 

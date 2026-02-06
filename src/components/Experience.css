@@ -87,25 +87,72 @@
   margin: 0;
 }
 
-.achievements-list li {
+.achievements-list > li {
   position: relative;
   padding-left: 1.5rem;
   margin-bottom: 1rem;
   color: #4a5568;
-  line-height: 1.6;
+  line-height: 1.7;
   font-size: 0.95rem;
 }
 
-.achievements-list li::before {
-  content: '▸';
+.achievements-list > li::before {
+  content: '●';
+  position: absolute;
+  left: 0;
+  color: #667eea;
+  font-weight: 700;
+  font-size: 0.6rem;
+  top: 0.5rem;
+}
+
+.achievements-list > li:last-child {
+  margin-bottom: 0;
+}
+
+/* Nested sub-achievements styling */
+.achievement-with-subitems {
+  margin-bottom: 1.2rem !important;
+}
+
+.achievement-title {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.sub-achievements {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0 0.5rem;
+}
+
+.sub-achievements .sub-achievement {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: #4a5568;
+  line-height: 1.7;
+  font-size: 0.93rem;
+}
+
+.sub-achievements .sub-achievement::before {
+  content: '-';
   position: absolute;
   left: 0;
   color: #667eea;
   font-weight: 700;
 }
 
-.achievements-list li:last-child {
+.sub-achievements .sub-achievement:last-child {
   margin-bottom: 0;
+}
+
+/* Bold text styling */
+.achievements-list strong,
+.sub-achievements strong {
+  color: #1e3a5f;
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {
