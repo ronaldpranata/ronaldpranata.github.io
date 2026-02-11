@@ -6,6 +6,7 @@ import About from './components/About';
 import Experience from './components/Experience';
 import Skills from './components/Skills';
 import Education from './components/Education';
+import Projects from './components/Projects';
 import Contact from './components/Contact';
 import './App.css';
 
@@ -16,6 +17,8 @@ function App() {
     switch (activeSection) {
       case 'about':
         return <About />;
+      case 'projects':
+        return <Projects />;
       case 'experience':
         return <Experience />;
       case 'skills':

@@ -170,6 +170,58 @@ const initialState = {
       ]
     }
   ],
+  projects: [
+    {
+      id: 1,
+      name: 'FWD Insurance',
+      description: 'A comprehensive digital insurance platform designed to simplify policy management and claims processing. The application features a user-friendly interface for browsing insurance products, getting quotes, and managing accounts.',
+      techStack: ['Vue.js', 'Vuex', 'JavaScript','Nuxt.js', 'Material UI','SCSS'],
+      image: '/assets/projects/fwd.png',
+      link: '#',
+      category: 'Web Application',
+      type: 'dentsu'
+    },
+    {
+      id: 2,
+      name: 'Stock Predictor AI',
+      description: 'An intelligent stock market analysis tool leveraging AI to predict market trends. Features real-time data visualization, predictive analytics, and personalized portfolio tracking.',
+      techStack: ['Next.js', 'Redux', 'TypeScript', 'Material UI', 'Recharts'],
+      image: '/assets/projects/stock-predictor.png',
+      link: '#',
+      category: 'FinTech',
+      type: 'personal'
+    },
+    {
+      id: 3,
+      name: 'Radha (Re-ordering System)',
+      description: 'A mobile-first re-ordering system designed for efficient inventory management. Streamlines the restocking process with barcode scanning, automated order generation, and real-time stock tracking.',
+      techStack: ['React Native', 'Redux', 'API Integration'],
+      image: '/assets/projects/radha.png',
+      link: '#',
+      category: 'Mobile App',
+      type: 'dentsu'
+    },
+    {
+      id: 4,
+      name: 'Zespri Kiwifruit',
+      description: 'A vibrant and engaging brand website for Zespri. The site showcases the health benefits of kiwifruit through rich media, interactive animations, and a responsive design that captures the brand essence.',
+      techStack: ['React', 'CSS Modules',  'Webpack'],
+      image: '/assets/projects/zespri.png',
+      link: '#',
+      category: 'Brand Website',
+      type: 'dentsu'
+    },
+    {
+      id: 5,
+      name: 'ESR',
+      description: 'Official corporate website for ESR, APAC’s largest real asset manager powered by the New Economy. Built on WordPress to ensure scalability and ease of content management for a large-scale enterprise.',
+      techStack: ['WordPress', 'PHP', 'jQuery', 'Bootstrap'],
+      image: '/assets/projects/esr.png',
+      link: 'https://www.esr.com/',
+      category: 'Corporate Website',
+      type: 'dentsu'
+    }
+  ],
   activeSection: 'about'
 };
 
@@ -190,6 +242,7 @@ export const selectCompetencies = (state) => state.portfolio.competencies;
 export const selectSkills = (state) => state.portfolio.skills;
 export const selectExperience = (state) => state.portfolio.experience;
 export const selectEducation = (state) => state.portfolio.education;
+export const selectProjects = (state) => state.portfolio.projects;
 export const selectActiveSection = (state) => state.portfolio.activeSection;
 
 export default portfolioSlice.reducer;
