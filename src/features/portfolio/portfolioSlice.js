@@ -9,7 +9,7 @@ const initialState = {
     email: 'ronald_pranata@yahoo.co.id',
     linkedin: 'https://www.linkedin.com/in/ronaldpranata',
     website: 'https://ronaldpranata.com',
-    summary: '**Senior Software Engineer** with 15+ years of experience in enterprise application development. **Subject Matter Expert in Front-End Development** (Vue.js, Nuxt) with **strong proficiency in Backend Architecture (Java Spring Boot, PHP, Node.js)**. Expert in integrating complex backend services with responsive, high-performance interfaces. Specialized in building secure, high-availability systems for the Finance and Digital Media sectors, with recent innovations in **Generative AI integration**. Proven track record in Technical Leadership, DevOps (CI/CD), and delivering large-scale digital transformation projects.'
+    summary: '**Senior Software Engineer** with 15+ years of experience in enterprise application development. **Subject Matter Expert in Front-End Development** (Vue.js, Nuxt) and **Proficient in React Ecosystem** (React.js, Next.js, React Native), with **strong proficiency in Backend Architecture (Java Spring Boot, PHP, Node.js)**. Expert in integrating complex backend services with responsive, high-performance interfaces. Specialized in building secure, high-availability systems for the Finance and Digital Media sectors, with recent innovations in **Generative AI integration**. Proven track record in Technical Leadership, DevOps (CI/CD), and delivering large-scale digital transformation projects.'
   },
   competencies: [
     {
