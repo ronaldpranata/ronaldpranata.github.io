@@ -17,6 +17,10 @@ const initialState = {
       description: 'Vue.js, Nuxt.js, State Management (Pinia/Redux)'
     },
     {
+      title: 'Frontend Frameworks (Proficient)',
+      description: 'React, Next.js, React Native, TypeScript'
+    },
+    {
       title: 'Backend Integration (Proficient)',
       description: 'Java Spring Boot, PHP, Node.js, RESTful API Design'
     },
