@@ -224,6 +224,16 @@ const initialState = {
       link: 'https://www.esr.com/',
       category: 'Corporate Website',
       type: 'dentsu'
+    },
+    {
+      id: 6,
+      name: 'CemaraSoft Enterprise Website',
+      description: 'Corporate website for CemaraSoft, an Odoo and SAP consulting partner. Built as a modern marketing site with clear service offerings, step-by-step implementation process, and strong calls-to-action for enterprise clients.',
+      techStack: ['React', 'Next.js', 'WordPress'],
+      image: '/assets/projects/cemarasoft.png',
+      link: 'https://cemarasoft.com/',
+      category: 'Corporate Website',
+      type: 'personal'
     }
   ],
   activeSection: 'about'
