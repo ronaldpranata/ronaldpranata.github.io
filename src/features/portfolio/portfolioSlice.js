@@ -234,6 +234,26 @@ const initialState = {
       link: 'https://cemarasoft.com/',
       category: 'Corporate Website',
       type: 'personal'
+    },
+    {
+      id: 7,
+      name: 'Prudential Performance Measurement',
+      description: 'A specialized internal logic engine using optimized Vanilla JavaScript, implementing complex calculation algorithms without external dependencies for maximum performance in performance measurement.',
+      techStack: ['Vanilla JavaScript', 'HTML5', 'CSS3'],
+      image: '/assets/projects/prudential.png',
+      link: '#',
+      category: 'Internal Tool',
+      type: 'dentsu'
+    },
+    {
+      id: 8,
+      name: 'OCBC Bank & StarHub',
+      description: 'A banking microsite developed for an OCBC Bank and StarHub collaboration, extending specially curated offers to customers.',
+      techStack: ['JavaScript', 'HTML5', 'CSS3', 'Bootstrap', 'jQuery'],
+      image: '/assets/projects/ocbc.png',
+      link: '#',
+      category: 'Microsite',
+      type: 'dentsu'
     }
   ],
   activeSection: 'about'
