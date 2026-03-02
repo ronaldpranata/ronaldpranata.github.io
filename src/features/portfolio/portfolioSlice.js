@@ -254,6 +254,16 @@ const initialState = {
       link: '#',
       category: 'Microsite',
       type: 'dentsu'
+    },
+    {
+      id: 9,
+      name: 'Mastercard Easy Savings Specials',
+      description: 'A promotional microsite featuring an interactive quiz to test knowledge about Easy Savings Specials and stand a chance to win e-vouchers for Business Mastercard cardholders.',
+      techStack: ['JavaScript', 'HTML5', 'CSS3', 'Vue.js', 'NuxtJS'],
+      image: '/assets/projects/mastercard.png',
+      link: '#',
+      category: 'Microsite',
+      type: 'dentsu'
     }
   ],
   activeSection: 'about'
